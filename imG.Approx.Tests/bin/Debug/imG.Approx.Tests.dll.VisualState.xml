@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1136]imG.Approx.Tests.Components.Shapes.TriangleTests+Clone</TopNode>
+  <SelectedNode>[0-1343]C:\dev\ImageApprox\imG.Approx.Tests\bin\Debug\imG.Approx.Tests.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1343]C:\dev\ImageApprox\imG.Approx.Tests\bin\Debug\imG.Approx.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1344]imG" Expanded="true" />
+    <Node UniqueName="[0-1345]imG.Approx" Expanded="true" />
+    <Node UniqueName="[0-1346]imG.Approx.Tests" Expanded="true" />
+    <Node UniqueName="[0-1347]imG.Approx.Tests.Components" Expanded="true" />
+    <Node UniqueName="[0-1348]imG.Approx.Tests.Components.BuildingBlocks" Expanded="true" />
+    <Node UniqueName="[0-1005]imG.Approx.Tests.Components.BuildingBlocks.AmountTests+Nudge" Expanded="true" />
+    <Node UniqueName="[0-1019]imG.Approx.Tests.Components.BuildingBlocks.AngleTests+Nudge" Expanded="true" />
+    <Node UniqueName="[0-1064]imG.Approx.Tests.Components.BuildingBlocks.PenSizeTests+Nudge" Expanded="true" />
+    <Node UniqueName="[0-1051]imG.Approx.Tests.Components.BuildingBlocks.PositionTests+Nudge" Expanded="true" />
+    <Node UniqueName="[0-1349]imG.Approx.Tests.Components.Shapes" Expanded="true" />
+    <Node UniqueName="[0-1199]imG.Approx.Tests.Components.Shapes.AreaTests+Clone" Expanded="true" />
+    <Node UniqueName="[0-1208]imG.Approx.Tests.Components.Shapes.AreaTests+MutableComponents" Expanded="true" />
+    <Node UniqueName="[0-1087]imG.Approx.Tests.Components.Shapes.BezierTests+Clone" Expanded="true" />
+    <Node UniqueName="[0-1099]imG.Approx.Tests.Components.Shapes.BezierTests+MutableComponents" Expanded="true" />
+    <Node UniqueName="[0-1121]imG.Approx.Tests.Components.Shapes.BlobTests+Clone" Expanded="true" />
+    <Node UniqueName="[0-1129]imG.Approx.Tests.Components.Shapes.BlobTests+MutableComponents" Expanded="true" />
+    <Node UniqueName="[0-1107]imG.Approx.Tests.Components.Shapes.CircleTests+Clone" Expanded="true" />
+    <Node UniqueName="[0-1116]imG.Approx.Tests.Components.Shapes.CircleTests+MutableComponents" Expanded="true" />
+    <Node UniqueName="[0-1350]imG.Approx.Tests.Components.Shapes.Factories" Expanded="true" />
+    <Node UniqueName="[0-1351]imG.Approx.Tests.Components.Shapes.Factories.ConcreteFactory" Expanded="true" />
+    <Node UniqueName="[0-1183]imG.Approx.Tests.Components.Shapes.LineTests+Clone" Expanded="true" />
+    <Node UniqueName="[0-1193]imG.Approx.Tests.Components.Shapes.LineTests+MutableComponents" Expanded="true" />
+    <Node UniqueName="[0-1168]imG.Approx.Tests.Components.Shapes.PolygonTests+Clone" Expanded="true" />
+    <Node UniqueName="[0-1169]imG.Approx.Tests.Components.Shapes.PolygonTests+Clone.should_return_different_object" Expanded="true" />
+    <Node UniqueName="[0-1172]imG.Approx.Tests.Components.Shapes.PolygonTests+Draw" Expanded="true" />
+    <Node UniqueName="[0-1174]imG.Approx.Tests.Components.Shapes.PolygonTests+InitializeComponents" Expanded="true" />
+    <Node UniqueName="[0-1176]imG.Approx.Tests.Components.Shapes.PolygonTests+MutableComponents" Expanded="true" />
+    <Node UniqueName="[0-1177]imG.Approx.Tests.Components.Shapes.PolygonTests+MutableComponents.should_return_components" Expanded="true" />
+    <Node UniqueName="[0-1152]imG.Approx.Tests.Components.Shapes.RectangleTests+Clone" Expanded="true" />
+    <Node UniqueName="[0-1162]imG.Approx.Tests.Components.Shapes.RectangleTests+MutableComponents" Expanded="true" />
+    <Node UniqueName="[0-1136]imG.Approx.Tests.Components.Shapes.TriangleTests+Clone" Expanded="true" />
+    <Node UniqueName="[0-1146]imG.Approx.Tests.Components.Shapes.TriangleTests+MutableComponents" Expanded="true" />
+    <Node UniqueName="[0-1352]imG.Approx.Tests.Mutation" Expanded="true" />
+    <Node UniqueName="[0-1231]imG.Approx.Tests.Mutation.MutagenTests+ChooseMutation" Expanded="true" />
+    <Node UniqueName="[0-1250]imG.Approx.Tests.Mutation.MutagenTests+SelectMutation" Expanded="true" />
+    <Node UniqueName="[0-1271]imG.Approx.Tests.Mutation.MutationDescriptionCatalogTest+For" Expanded="true" />
+    <Node UniqueName="[0-1259]imG.Approx.Tests.Mutation.MutationDescriptionTests+Constructor" Expanded="true" />
+    <Node UniqueName="[0-1279]imG.Approx.Tests.Mutation.ProcessTests+Constructor" Expanded="true" />
+    <Node UniqueName="[0-1285]imG.Approx.Tests.Mutation.ProcessTests+Mutate" Expanded="true" />
+    <Node UniqueName="[0-1303]imG.Approx.Tests.Mutation.TargetTests+Constructor" Expanded="true" />
+    <Node UniqueName="[0-1307]imG.Approx.Tests.Mutation.TargetTests+DistanceTo" Expanded="true" />
+    <Node UniqueName="[0-1313]imG.Approx.Tests.Mutation.TargetTests+LoadImageData" Expanded="true" />
+    <Node UniqueName="[0-1353]imG.Approx.Tests.Tools" Expanded="true" />
+    <Node UniqueName="[0-1325]imG.Approx.Tests.Tools.TestValues+Clamp" Expanded="true" />
+    <Node UniqueName="[0-1335]imG.Approx.Tests.Tools.TestValues+Wrap" Expanded="true" />
+  </Nodes>
+</VisualState>

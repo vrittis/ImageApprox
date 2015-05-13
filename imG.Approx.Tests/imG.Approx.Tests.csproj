@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{739639D0-ACC4-41AC-9F22-EEE05F047C02}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>imG.Approx.Tests</RootNamespace>
+    <AssemblyName>imG.Approx.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NSubstitute">
+      <HintPath>..\packages\NSubstitute.1.8.1.0\lib\net45\NSubstitute.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\BaseDrawingTest.cs" />
+    <Compile Include="Components\BaseIMutableTests.cs" />
+    <Compile Include="Components\BuildingBlocks\Amount.cs" />
+    <Compile Include="Components\BuildingBlocks\Angle.cs" />
+    <Compile Include="Components\BuildingBlocks\Color.cs" />
+    <Compile Include="Components\BuildingBlocks\Position.cs" />
+    <Compile Include="Components\BuildingBlocks\PenSize.cs" />
+    <Compile Include="Components\Drawing.cs" />
+    <Compile Include="Components\Shapes\Bezier.cs" />
+    <Compile Include="Components\Shapes\Circle.cs" />
+    <Compile Include="Components\Shapes\Blob.cs" />
+    <Compile Include="Components\Shapes\Triangle.cs" />
+    <Compile Include="Components\Shapes\Rectangle.cs" />
+    <Compile Include="Components\Shapes\Polygon.cs" />
+    <Compile Include="Components\Shapes\Line.cs" />
+    <Compile Include="Components\Shapes\Area.cs" />
+    <Compile Include="Components\Shapes\Factories\ConcreteFactory\TestShapeFactory.cs" />
+    <Compile Include="Components\Shapes\Factories\ShapeFactoryCatalog.cs" />
+    <Compile Include="Mutation\MutableAndDescription\Mutables.cs" />
+    <Compile Include="Mutation\Mutagen.cs" />
+    <Compile Include="Mutation\MutationDescription.cs" />
+    <Compile Include="Mutation\MutationDescriptionCatalog.cs" />
+    <Compile Include="Mutation\Process.cs" />
+    <Compile Include="Mutation\RandomizationProvider.cs" />
+    <Compile Include="Mutation\Registrars\MutationDescriptionRegistrar.cs" />
+    <Compile Include="Mutation\Target.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\Values.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\imG.Approx\imG.Approx.csproj">
+      <Project>{c277181e-44f8-47b5-98a8-9638fa837476}</Project>
+      <Name>imG.Approx</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\green.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\red.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

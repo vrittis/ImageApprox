@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageApprox", "ImageApprox\ImageApprox.csproj", "{9682CF7B-D955-4CA6-B37B-7F29669291F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imG.Approx", "imG.Approx\imG.Approx.csproj", "{C277181E-44F8-47B5-98A8-9638FA837476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imG.Approx.Tests", "imG.Approx.Tests\imG.Approx.Tests.csproj", "{739639D0-ACC4-41AC-9F22-EEE05F047C02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9682CF7B-D955-4CA6-B37B-7F29669291F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9682CF7B-D955-4CA6-B37B-7F29669291F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9682CF7B-D955-4CA6-B37B-7F29669291F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9682CF7B-D955-4CA6-B37B-7F29669291F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C277181E-44F8-47B5-98A8-9638FA837476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C277181E-44F8-47B5-98A8-9638FA837476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C277181E-44F8-47B5-98A8-9638FA837476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C277181E-44F8-47B5-98A8-9638FA837476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739639D0-ACC4-41AC-9F22-EEE05F047C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739639D0-ACC4-41AC-9F22-EEE05F047C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739639D0-ACC4-41AC-9F22-EEE05F047C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739639D0-ACC4-41AC-9F22-EEE05F047C02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+C:\dev\ImageApprox\imG.Approx.Tests\bin\Debug\data\blue.png
+C:\dev\ImageApprox\imG.Approx.Tests\bin\Debug\data\green.png
+C:\dev\ImageApprox\imG.Approx.Tests\bin\Debug\data\red.png
+C:\dev\ImageApprox\imG.Approx.Tests\bin\Debug\imG.Approx.Tests.dll
+C:\dev\ImageApprox\imG.Approx.Tests\bin\Debug\imG.Approx.Tests.pdb
+C:\dev\ImageApprox\imG.Approx.Tests\bin\Debug\imG.Approx.dll
+C:\dev\ImageApprox\imG.Approx.Tests\bin\Debug\NSubstitute.dll
+C:\dev\ImageApprox\imG.Approx.Tests\bin\Debug\nunit.framework.dll
+C:\dev\ImageApprox\imG.Approx.Tests\bin\Debug\imG.Approx.pdb
+C:\dev\ImageApprox\imG.Approx.Tests\bin\Debug\NSubstitute.xml
+C:\dev\ImageApprox\imG.Approx.Tests\bin\Debug\nunit.framework.xml
+C:\dev\ImageApprox\imG.Approx.Tests\obj\Debug\imG.Approx.Tests.csprojResolveAssemblyReference.cache
+C:\dev\ImageApprox\imG.Approx.Tests\obj\Debug\imG.Approx.Tests.dll
+C:\dev\ImageApprox\imG.Approx.Tests\obj\Debug\imG.Approx.Tests.pdb

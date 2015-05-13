@@ -1,0 +1,10 @@
+C:\dev\ImageApprox\imG.Approx\bin\Debug\imG.Approx.dll
+C:\dev\ImageApprox\imG.Approx\bin\Debug\imG.Approx.pdb
+C:\dev\ImageApprox\imG.Approx\obj\Debug\imG.Approx.csprojResolveAssemblyReference.cache
+C:\dev\ImageApprox\imG.Approx\obj\Debug\imG.Approx.dll
+C:\dev\ImageApprox\imG.Approx\obj\Debug\imG.Approx.pdb
+D:\dev\ImageApprox\imG.Approx\bin\Debug\imG.Approx.dll
+D:\dev\ImageApprox\imG.Approx\bin\Debug\imG.Approx.pdb
+D:\dev\ImageApprox\imG.Approx\obj\Debug\imG.Approx.csprojResolveAssemblyReference.cache
+D:\dev\ImageApprox\imG.Approx\obj\Debug\imG.Approx.dll
+D:\dev\ImageApprox\imG.Approx\obj\Debug\imG.Approx.pdb
